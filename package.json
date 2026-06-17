@@ -1,0 +1,14 @@
+{
+  "name": "mytestrepo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "npm run build && sh test/hello-world.test.sh"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
