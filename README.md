@@ -1,6 +1,6 @@
-# TS Hello World
+# TS Calculator
 
-A minimal TypeScript Hello World project.
+A minimal TypeScript command-line calculator.
 
 ## Setup
 
@@ -16,14 +16,28 @@ npm run build
 
 ## Run
 
+Pass the expression as a command-line argument:
+
 ```bash
-npm start
+npm start -- "1 + 2 * 3"
 ```
 
 Expected output:
 
 ```text
-Hello, world!
+7
+```
+
+Another example:
+
+```bash
+npm start -- "(10 - 3) / 2"
+```
+
+Expected output:
+
+```text
+3.5
 ```
 
 ## Test
